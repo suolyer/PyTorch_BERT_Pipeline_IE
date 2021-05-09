@@ -12,7 +12,7 @@ transformers>=3.4.0
 ```
 # 运行步骤
 1、进入entity_extract项目或relationship_classifiction项<br>
-1、去huggingface[官网](https://huggingface.co/models)下载BERT预训练权重，然后并放在`./pretrained_model/`文件夹下<br>
-2、在`./utils/arguments_parse.py`中修改BERT预训练模型的路径<br>
-3、运行`train.py`进行训练<br>
-4、运行`predict.py`进行预测
+2、去huggingface[官网](https://huggingface.co/models)下载BERT预训练权重，然后并放在`./pretrained_model/`文件夹下<br>
+3、在`./utils/arguments_parse.py`中修改BERT预训练模型的路径<br>
+4、运行`train.py`进行训练<br>
+5、运行`predict.py`进行预测
