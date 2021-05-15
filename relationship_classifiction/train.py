@@ -51,7 +51,7 @@ def train():
     test_data = data_prepro.yield_data(args.dev_path)
 
     model = bertMRC(pre_train_dir=args.pretrained_model_path, dropout_rate=0.5).to(device)
-    model.load_state_dict(torch.load(args.checkpoints))
+    #model.load_state_dict(torch.load(args.checkpoints))
     param_optimizer = list(model.named_parameters())
     no_decay = ['bias', 'gamma', 'beta']
     optimizer_grouped_parameters = [
